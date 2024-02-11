@@ -52,7 +52,7 @@
             bindings = <
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &out OUT_TOG                                &trans    &trans     &trans     &trans     &trans  &trans
 &trans      &trans        &trans        &trans        &kp PSCRN     &trans                                      &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &trans  &trans
-&trans      &kp ESC       &kp ENTER     &trnas        &kp BSPC      &kp DEL                                     &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &trans  &trans
+&trans      &kp ESC       &kp ENTER     &trans        &kp BSPC      &kp DEL                                     &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &trans  &trans
 &kp LSHIFT  &trans        &trans        &trans        &trans        &trans        &trans                &trans  &trans    &trans     &trans     &trans     &trans  &trans
                           &trans        &trans        &trans        &trans        &kp LGUI              &trans  &trans    &trans     &trans     &trans
             >;
