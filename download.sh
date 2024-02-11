@@ -9,7 +9,7 @@ gh run download -n firmware
 
 # rename the uf2 to be more easy to work with
 mv sofle_left-nice_nano_v2-zmk.uf2 left.uf2
-mv solfe_right-nice_nano_v2-zmk.uf2 right.uf2
+mv sofle_right-nice_nano_v2-zmk.uf2 right.uf2
 
 # return to original directory on this shell
 cd -
