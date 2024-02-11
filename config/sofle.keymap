@@ -10,10 +10,10 @@
 #include <dt-bindings/zmk/ext_power.h>
 
 #define BASE 0
-#define LOWER 1
+#define NUM 1
 #define NAV 2
-#define ENCODER_BINDINGS &inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_NEXT C_PREV;
-#define REPEAT &key_repeat;
+#define ENCODER_BINDINGS &inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_NEXT C_PREV
+#define REPEAT &key_repeat
 
 / {
     keymap {
