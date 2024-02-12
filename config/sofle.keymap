@@ -37,11 +37,11 @@ REPEAT     &kp Z   &kp X    &kp C     &kp D      &kp V       &kp C_MUTE         
         num_layer {
             display-name = "num";
             bindings = <
-&trans     &kp F1    &kp F2    &kp F3      &kp F4    &kp F5                                  &kp F6     &kp F7    &kp F8    &kp F9     &kp F10   &trans
-&kp GRAVE  &kp EXCL  &kp AT    &kp HASH    &kp DLLR  &kp PRCNT                               &kp CARET  &kp AMPS  &kp STAR  &kp LPAR   &kp RPAR  &trans
-&trans     &kp N1    &kp N2    &kp N3      &kp N4    &kp N5                                  &kp N6     &kp N7    &kp N8    &kp N9     &kp N0    &kp F11
-&trans     &none     &trans    &trans      &kp DEL   &kp BSPC   &trans             &trans    &none      &none     &none     &none      &none     &kp F12
-                     &trans    &trans      &trans    &trans     &none              &kp RGUI  &trans     &trans    &trans    &trans
+&trans      &kp F1    &kp F2    &kp F3      &kp F4    &kp F5                                  &kp F6     &kp F7    &kp F8    &kp F9     &kp F10   &trans
+&kp GRAVE   &kp EXCL  &kp AT    &kp HASH    &kp DLLR  &kp PRCNT                               &kp CARET  &kp AMPS  &kp STAR  &kp LPAR   &kp RPAR  &trans
+&trans      &kp N1    &kp N2    &kp N3      &kp N4    &kp N5                                  &kp N6     &kp N7    &kp N8    &kp N9     &kp N0    &kp F11
+&kp LSHIFT  &none     &trans    &trans      &kp DEL   &kp BSPC   &trans             &trans    &none      &none     &none     &none      &none     &kp F12
+                      &trans    &trans      &trans    &trans     &none              &kp RGUI  &trans     &trans    &trans    &trans
             >;
 
             sensor-bindings = <ENCODER_BINDINGS>;
@@ -50,10 +50,10 @@ REPEAT     &kp Z   &kp X    &kp C     &kp D      &kp V       &kp C_MUTE         
         nav_layer {
             display-name = "nav";
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &out OUT_TOG                                &trans    &trans     &trans     &trans     &trans     &trans
-&kp GRAVE   &trans        &kp LPAR      &kp RPAR      &kp PSCRN     &trans                                      &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &trans     &trans
-&trans      &kp ESC       &kp LBRC      &kp RBRC      &trans        &trans                                      &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &kp ENTER  &trans
-&kp LSHIFT  &trans        &kp LBKT      &kp RBKT      &kp DEL       &kp BSPC      &trans                &trans  &trans    &trans     &kp MINUS  &kp EQUAL  &trans     &trans
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &out OUT_TOG                                &trans    &trans     &trans     &trans      &trans     &trans
+&kp GRAVE   &trans        &kp LPAR      &kp RPAR      &kp PSCRN     &trans                                      &kp HOME  &kp PG_DN  &kp PG_UP  &kp END     &trans     &trans
+&trans      &kp ESC       &kp LBRC      &kp RBRC      &trans        &trans                                      &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT   &kp ENTER  &trans
+&kp LSHIFT  &trans        &kp LBKT      &kp RBKT      &kp DEL       &kp BSPC      &trans                &trans  &trans    &kp MINUS  &kp EQUAL  &kp K_MENU  &trans     &trans
                           &trans        &trans        &trans        &trans        &kp LGUI              &trans  &trans    &trans     &trans     &trans
             >;
 
