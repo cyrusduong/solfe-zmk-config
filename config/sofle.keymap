@@ -23,11 +23,11 @@
         default_layer {
             display-name = "default";
             bindings = <
-&kp GRAVE  &kp N1  &kp N2   &kp N3    &kp N4     &kp N5                                       &kp N6     &kp N7    &kp N8     &kp N9   &kp N0    &kp DEL
-&kp TAB    &kp Q   &kp W    &kp F     &kp P      &kp B                                        &kp J      &kp L     &kp U      &kp Y    &kp SEMI  &kp BSPC
-&kp LCTRL  &kp A   &kp R    &kp S     &kp T      &kp G                                        &kp M      &kp N     &kp E      &kp I    &kp O     &kp SQT
-REPEAT     &kp Z   &kp X    &kp C     &kp D      &kp V       &kp C_MUTE            &kp C_PP   &kp K      &kp H     &kp COMMA  &kp DOT  &kp FSLH  &kp BSLH
-                   &kp ESC  &kp LALT  &kp SPACE  &kp LSHIFT  &mo NUM               &mo NAV    &kp SPACE  &kp RGUI  &kp MINUS  &kp EQUAL
+&kp GRAVE   &kp N1  &kp N2   &kp N3    &kp N4     &kp N5                                       &kp N6     &kp N7    &kp N8     &kp N9   &kp N0    &kp DEL
+&kp TAB     &kp Q   &kp W    &kp F     &kp P      &kp B                                        &kp J      &kp L     &kp U      &kp Y    &kp SEMI  &kp BSPC
+&kp LCTRL   &kp A   &kp R    &kp S     &kp T      &kp G                                        &kp M      &kp N     &kp E      &kp I    &kp O     &kp SQT
+&kp LSHIFT  &kp Z   &kp X    &kp C     &kp D      &kp V       &kp C_MUTE            &kp C_PP   &kp K      &kp H     &kp COMMA  &kp DOT  &kp FSLH  &kp BSLH
+                    &kp ESC  &kp LALT  &kp SPACE  REPEAT      &mo NUM               &mo NAV    &kp SPACE  &kp RGUI  &kp MINUS  &kp EQUAL
             >;
 
             // Encoders (Left CW CCW - Right CW CCW)
@@ -40,7 +40,7 @@ REPEAT     &kp Z   &kp X    &kp C     &kp D      &kp V       &kp C_MUTE         
 &trans      &kp F1    &kp F2    &kp F3      &kp F4    &kp F5                                  &kp F6     &kp F7    &kp F8    &kp F9     &kp F10   &trans
 &kp GRAVE   &kp EXCL  &kp AT    &kp HASH    &kp DLLR  &kp PRCNT                               &kp CARET  &kp AMPS  &kp STAR  &kp LPAR   &kp RPAR  &trans
 &trans      &kp N1    &kp N2    &kp N3      &kp N4    &kp N5                                  &kp N6     &kp N7    &kp N8    &kp N9     &kp N0    &kp F11
-&kp LSHIFT  &none     &trans    &trans      &kp DEL   &kp BSPC   &trans             &trans    &none      &none     &none     &none      &none     &kp F12
+&trans      &none     &trans    &trans      &kp DEL   &kp BSPC   &trans             &trans    &none      &none     &none     &none      &none     &kp F12
                       &trans    &trans      &trans    &trans     &none              &kp RGUI  &trans     &trans    &trans    &trans
             >;
 
@@ -53,7 +53,7 @@ REPEAT     &kp Z   &kp X    &kp C     &kp D      &kp V       &kp C_MUTE         
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &out OUT_TOG                                &trans    &trans     &trans     &trans      &trans     &trans
 &kp GRAVE   &trans        &kp LPAR      &kp RPAR      &kp PSCRN     &trans                                      &kp HOME  &kp PG_DN  &kp PG_UP  &kp END     &trans     &trans
 &trans      &kp ESC       &kp LBRC      &kp RBRC      &trans        &trans                                      &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT   &kp ENTER  &trans
-&kp LSHIFT  &trans        &kp LBKT      &kp RBKT      &kp DEL       &kp BSPC      &trans                &trans  &trans    &kp MINUS  &kp EQUAL  &kp K_MENU  &trans     &trans
+&trans      &trans        &kp LBKT      &kp RBKT      &kp DEL       &kp BSPC      &trans                &trans  &trans    &kp MINUS  &kp EQUAL  &kp K_MENU  &trans     &trans
                           &trans        &trans        &trans        &trans        &kp LGUI              &trans  &trans    &trans     &trans     &trans
             >;
 
