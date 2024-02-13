@@ -50,11 +50,11 @@
         nav_layer {
             display-name = "nav";
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &out OUT_TOG                                &trans    &trans     &trans     &trans      &trans     &trans
-&kp GRAVE   &trans        &kp LPAR      &kp RPAR      &kp PSCRN     &trans                                      &kp HOME  &kp PG_DN  &kp PG_UP  &kp END     &trans     &trans
-&trans      &kp ESC       &kp LBRC      &kp RBRC      &trans        &trans                                      &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT   &kp ENTER  &trans
-&trans      &trans        &kp LBKT      &kp RBKT      &kp DEL       &kp BSPC      &trans                &trans  &trans    &kp MINUS  &kp EQUAL  &kp K_MENU  &trans     &trans
-                          &trans        &trans        &trans        &trans        &kp LGUI              &trans  &trans    &trans     &trans     &trans
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &out OUT_TOG                                &trans      &trans     &trans     &trans      &trans     &trans
+&kp GRAVE   &trans        &kp LPAR      &kp RPAR      &kp PSCRN     &trans                                      &kp HOME    &kp PG_DN  &kp PG_UP  &kp END     &trans     &trans
+&trans      &kp ESC       &kp LBRC      &kp RBRC      &trans        &trans                                      &kp LEFT    &kp DOWN   &kp UP     &kp RIGHT   &kp ENTER  &trans
+&trans      &trans        &kp LBKT      &kp RBKT      &kp DEL       &kp BSPC      &trans                &trans  &kp K_MENU  &kp MINUS  &kp EQUAL  &kp GT      &trans     &trans
+                          &trans        &trans        &trans        &trans        &kp LGUI              &trans  &trans      &trans     &trans     &trans
             >;
 
             sensor-bindings = <ENCODER_BINDINGS>;
