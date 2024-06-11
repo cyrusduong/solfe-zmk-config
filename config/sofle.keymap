@@ -37,11 +37,11 @@
         num_layer {
             display-name = "num";
             bindings = <
-&trans     &kp F1     &kp F2  &kp F3    &kp F4    &kp F5                                 &kp F6     &kp F7     &kp F8     &kp F9    &kp F10   &trans
-&kp GRAVE  &kp EXCL   &kp AT  &kp HASH  &kp DLLR  &kp PRCNT                              &kp CARET  &kp AMPS   &kp STAR   &kp LPAR  &kp RPAR  &trans
-&trans     &kp N1     &kp N2  &kp N3    &kp N4    &kp N5                                 &kp N6     &kp N7     &kp N8     &kp N9    &kp N0    &kp F11
-&trans     &kp ENTER  &trans  &trans    &kp DEL   &kp BSPC   &trans            &trans    &kp EXCL   &kp MINUS  &kp EQUAL  &kp GT    &none     &kp F12
-                      &trans  &trans    &trans    &trans     &none             &kp RGUI  &trans     &trans     &trans     &trans
+&trans     &kp F1     &kp F2    &kp F3    &kp F4    &kp F5                                 &kp F6     &kp F7     &kp F8     &kp F9    &kp F10    &trans
+&kp GRAVE  &kp EXCL   &kp AT    &kp HASH  &kp DLLR  &kp PRCNT                              &kp CARET  &kp AMPS   &kp STAR   &kp LPAR  &kp RPAR   &trans
+&trans     &kp N1     &kp N2    &kp N3    &kp N4    &kp N5                                 &kp N6     &kp N7     &kp N8     &kp N9    &kp N0     &kp F11
+&trans     &kp ENTER  &kp HOME  &kp END   &kp DEL   &kp BSPC   &trans            &trans    &kp EXCL   &kp MINUS  &kp EQUAL  &kp GT    &kp QMARK  &kp F12
+                      &trans    &trans    &trans    &trans     &none             &kp RGUI  &trans     &trans     &trans     &trans
             >;
 
             sensor-bindings = <ENCODER_BINDINGS>;
