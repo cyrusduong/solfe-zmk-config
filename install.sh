@@ -50,14 +50,15 @@ check_and_copy() {
 		sleep 0.2 # Wait for 1 second before checking again
 	done
 
-	# echo "Waiting for $device to unmount..."
-	# Wait for nice nano to reboot and unmount
-	# 	device=$(lsblk -o PATH,LABEL | grep "$device" | awk '{print $1}')
-	# 	if [ ! -n "$device" ]; then
-	# 		break
-	# 	fi
-	# 	sleep 0.2
-	# done
+	echo "Waiting for $device to unmount..."
+	while true; do
+		# Wait for nice nano to reboot and unmount
+		device=$(lsblk -o PATH,LABEL | grep "$device" | awk '{print $1}')
+		if [ ! -n "$device" ]; then
+			break
+		fi
+		sleep 0.2
+	done
 
 	# Force unmount so we can reuse directory
 	sudo umount -fl $destination
@@ -67,6 +68,6 @@ check_and_copy() {
 check_and_copy "$LEFT_FILE" "Please connect the left keyboard" "sda" "/mnt/nano-left"
 
 # Wait for the right keyboard
-check_and_copy "$RIGHT_FILE" "Please connect the right keyboard" "sdb" "/mnt/nano-right"
+check_and_copy "$RIGHT_FILE" "Please connect the right keyboard" "sda" "/mnt/nano-right"
 
 echo "Done!"
